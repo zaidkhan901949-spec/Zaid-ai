@@ -1,4 +1,11 @@
-
+data class Medicine(
+    val id: String,
+    val name: String,
+    val category: String,
+    val price: Double,
+    val stock: Int,
+    val description: String
+)
 from kivy.app import App
 from kivy.uix.boxlayout import BoxLayout
 from kivy.uix.label import Label
